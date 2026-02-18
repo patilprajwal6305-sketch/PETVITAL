@@ -1,27 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>PETVITAL</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PETVITAL - Smart Pet Health</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
 <header>
-<h1>PETVITAL - Smart Pet Health Companion</h1>
+    <h1>PETVITAL - Your Pet's Smart Health Companion</h1>
 </header>
 
-<section>
-<h2>Add Pet Details</h2>
+<nav>
+    <a href="#register">Register Pet</a>
+    <a href="#diagnosis">AI Diagnosis</a>
+    <a href="#treatment">Treatments</a>
+    <a href="#consult">Consult Vets</a>
+</nav>
 
-<input type="text" placeholder="Pet Name">
-<input type="text" placeholder="Pet Type">
-<input type="number" placeholder="Pet Age">
-<button>Add Pet</button>
-
+<section class="hero">
+    <h2>Empowering Pet Owners with AI-Driven Health Insights</h2>
+    <p>Track health, get instant diagnosis, and consult with expert vets – all in one place.</p>
 </section>
+
+<section id="register">
+    <h2>Add Pet Details</h2>
+
+    <form id="petForm">
+        <input type="text" id="petName" placeholder="Pet Name" required>
+        <input type="text" id="petType" placeholder="Pet Type (Dog, Cat, etc.)" required>
+        <input type="number" id="petAge" placeholder="Age" required>
+        <input type="text" id="petSymptoms" placeholder="Symptoms (comma separated)" required>
+
+        <button type="submit">Add Pet</button>
+    </form>
+</section>
+
+<section id="diagnosis">
+    <h2>AI Diagnosis</h2>
+
+    <div class="card-grid">
+        <div class="card">
+            <p>Upload pet symptoms or photo and get AI predictions.</p>
+
+            <input type="file" accept="image/*">
+            <textarea placeholder="Describe symptoms..."></textarea>
+
+            <button>Get Diagnosis</button>
+        </div>
+    </div>
+</section>
+
+<section id="treatment">
+    <h2>Treatment Recommendations</h2>
+
+    <div class="card-grid">
+        <div class="card">
+            <p>Based on diagnosis, get treatment plans.</p>
+            <button>View Sample Treatments</button>
+        </div>
+    </div>
+</section>
+
+<section id="consult">
+    <h2>Nearest Veterinary Hospitals in Bengaluru</h2>
+
+    <div class="hospital">
+        <h3>Cessna Lifeline Veterinary Hospital</h3>
+        <p><strong>Address:</strong> HAL Airport Road, Bengaluru</p>
+        <p><strong>Contact:</strong> +91 76763 65365</p>
+        <p><a href="https://www.cessnalifeline.com/" target="_blank">Visit Website</a></p>
+    </div>
+</section>
+
+<footer>
+    © 2025 PETVITAL. All rights reserved.
+</footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
