@@ -1,46 +1,53 @@
-## OpinionNet 
-#Movie Review Sentiment Analysis (RNN-Based)
+🐾 Website Title & Purpose
+ＰＥＴＶＩＴＡＬ – Smart Pet Health Companion
+The website is designed to help pet owners:
+Track pet health
+Get AI-based diagnosis
+Receive treatment recommendations
+Consult veterinary doctors.
 
-A deep learning project that predicts whether a movie review is Positive or Negative using a Recurrent Neural Network (RNN).
-The model is trained on text reviews, processed through an NLP pipeline, and evaluated for real-world sentiment classification.
+🎨 Design & Appearance
+Background image of pets dressed like healthcare staff
+Uses colorful theme with:
+Header section
+Navigation menu
+Cards layout for features
+Footer section
 
-🚀 Features
+🧭 Navigation Menu Options
+Users can move between four main sections:
+Register Pet
+AI Diagnosis
+Treatments
+Consult Vets
 
-✨ Text Preprocessing — tokenization, stopword removal, padding
+🐕 Pet Registration Section
+Users can enter pet details including:
+Pet Name
+Pet Type (Dog, Cat, etc.)
+Pet Age
+Pet Symptoms
+It includes a button to Add Pet.
 
-🧠 RNN-based Model — captures sequential patterns in text
+🤖 AI Diagnosis Section
+Provides AI health prediction features:
+Option to upload pet image
+Option to describe symptoms
+Button to get diagnosis result.
 
-📊 Sentiment Classification — predicts Positive / Negative
+🏥 Veterinary Consultation Section
+Shows veterinary help options including:
+Nearest veterinary hospital details:
+Hospital Name
+Address
+Contact Number
+Website link
+Option to book consultation with vets
 
-📈 Performance Evaluation — accuracy, loss, confusion matrix
+📌 Hospital Information Included
+Cessna Lifeline Veterinary Hospital
+Address and phone number
+Official website link
 
-🗂️ Dataset — IMDB / custom movie review dataset
-
-🧠 Tech Stack
-
-Python, TensorFlow/Keras
-
-RNN / LSTM layers
-
-NumPy, Pandas, Matplotlib
-
-Scikit-learn (train-test split, metrics)
-
-📌 How It Works
-
-Clean and preprocess text reviews
-
-Convert text → sequences
-
-Train RNN model on padded sequences
-
-Predict sentiment on new reviews
-
-Visualize training accuracy & loss
-
-📝 Example Prediction
-
-Input:
-“The movie was absolutely amazing with great performances.”
-Output:
-Positive
+📄 Footer
+Copyright information for PETVITAL
